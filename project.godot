@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="metroidvania-playground"
-run/main_scene="uid://c571nb1r08gtq"
+run/main_scene="uid://3fmt5xomhr3s"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://b67kbxrn5v7m3"
 
