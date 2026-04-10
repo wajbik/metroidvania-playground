@@ -2,6 +2,7 @@
 
 [ext_resource type="TileSet" uid="uid://drqcwg43mep4r" path="res://levels/tilesets/forest.tres" id="1_pu3y4"]
 [ext_resource type="PackedScene" uid="uid://73qiw4tmskll" path="res://player/player.tscn" id="2_1pu88"]
+[ext_resource type="Script" uid="uid://cv6ocxh4ig7av" path="res://general/scripts/level_bounds.gd" id="3_1pu88"]
 
 [node name="01" type="Node2D" unique_id=781599103]
 
@@ -20,3 +21,10 @@ tile_set = ExtResource("1_pu3y4")
 position = Vector2(0, 5)
 tile_map_data = PackedByteArray("AAACAAYAAAAUAAcAAAAKAAYAAAAUAAcAAAATAAUAAAAVAAcAAAATAAYAAAAVAAgAAAA=")
 tile_set = ExtResource("1_pu3y4")
+
+[node name="LevelBounds" type="Node2D" parent="." unique_id=311831222]
+position = Vector2(-80, -32)
+script = ExtResource("3_1pu88")
+width = 1120
+height = 334
+metadata/_custom_type_script = "uid://cv6ocxh4ig7av"
