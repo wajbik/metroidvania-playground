@@ -11,7 +11,7 @@ const DEBUG_JUMP_INDICATOR = preload("uid://dk0pq5atijdv4")
 #endregion
 
 #region /// export variables
-@export var move_speed : float = 100
+@export var move_speed : float = 200
 @export var max_fall_velocity : float = 600.0
 #endregion
 
