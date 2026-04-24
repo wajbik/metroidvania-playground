@@ -15,6 +15,10 @@ run/main_scene="uid://3fmt5xomhr3s"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://b67kbxrn5v7m3"
 
+[autoload]
+
+SceneManager="*uid://fjftd6nnslcr"
+
 [display]
 
 window/size/viewport_width=480
@@ -22,6 +26,10 @@ window/size/viewport_height=270
 window/size/window_width_override=1440
 window/size/window_height_override=810
 window/stretch/mode="canvas_items"
+
+[global_group]
+
+Player=""
 
 [input]
 
@@ -74,6 +82,7 @@ action={
 
 2d_physics/layer_1="Ground"
 2d_physics/layer_2="OneWayPlatform"
+2d_physics/layer_5="Layer-5-player"
 
 [physics]
 
